@@ -114,7 +114,7 @@ public static void main(String[] args) throws InterruptedException {
      //((JavascriptExecutor) driver).executeScript("scroll(0, -600);");
      driver.switchTo().defaultContent();
      driver.findElement(By.xpath("(//*[contains(@class,'content-right twelve columns')])[1]")).click();
-     Thread.sleep(3000);
+    
      
    //Scrolldown and switch to Frame 2 and Print text
      //js.executeScript("window.scrollBy(0,1000)");

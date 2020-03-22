@@ -66,18 +66,7 @@ public class  gmail{
 	        WebElement pswrd=driver.findElement(By.xpath("//*[contains(@name,'password')]"));
 	        pswrd.sendKeys("KAlem34!!");
 	        
-	        /*
-	        WebElement next= driver.findElement(By.xpath("(//*[contains(text(),'Next')])[2]"));
-	        
-	        WebDriverWait wait = new WebDriverWait(driver, 30);
-
-	       wait.until(ExpectedConditions.elementToBeClickable(next));
-	       next.click();
-
-	       */
-	     //Waiting 30 seconds for an element to be present on the page, checking
-	        // for its presence once every 5 seconds.
-	       // driver.navigate().refresh();
+	      
 	        Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)							
 	    			.withTimeout(40, TimeUnit.SECONDS) 			
 	    			.pollingEvery(4, TimeUnit.SECONDS) 			
